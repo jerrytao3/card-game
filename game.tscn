@@ -1,0 +1,217 @@
+[gd_scene load_steps=4 format=3 uid="uid://1iawxk8hucuh"]
+
+[ext_resource type="Script" path="res://Game.gd" id="1_5ej63"]
+[ext_resource type="Script" path="res://Hand.gd" id="2_retu7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bcal2"]
+bg_color = Color(0.729412, 0.709804, 0.866667, 1)
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5ej63")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+stretch_mode = 0
+alignment_vertical = 0
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/AspectRatioContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 5
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer2" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer3" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer4" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer5" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer6" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer7" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer8" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer9" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer10" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer11" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer12" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer13" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer14" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer15" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer16" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer17" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer18" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer19" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer20" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer21" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer22" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer23" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer24" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="PanelContainer25" type="PanelContainer" parent="MarginContainer/AspectRatioContainer/PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_bcal2")
+
+[node name="Hand" type="Control" parent="."]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_retu7")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 430.0
+offset_top = 1063.0
+offset_right = 661.0
+offset_bottom = 1294.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlipqqvlk3eju"]
+
+[ext_resource type="Script" path="res://GridCard.gd" id="1_38xtv"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_bvmuf"]
+font_size = 30
+
+[node name="GridCard" type="PanelContainer"]
+custom_minimum_size = Vector2(184, 184)
+script = ExtResource("1_38xtv")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+
+[node name="Points" type="Label" parent="MarginContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 0
+text = "8"
+label_settings = SubResource("LabelSettings_bvmuf")
+
+[node name="Icon" type="TextureRect" parent="MarginContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
